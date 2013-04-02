@@ -1,0 +1,12 @@
+{
+  "name": "New Zendesk Tabs",
+  "description": "New Zendesk Tabs",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "*://*.zendesk.com/agent/*"
+  ],
+  "manifest_version": 2
+}
