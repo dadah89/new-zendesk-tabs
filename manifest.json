@@ -1,9 +1,10 @@
 {
   "name": "New Zendesk Tabs",
   "description": "New Zendesk Tabs",
-  "version": "0.1",
+  "version": "0.2",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["eventPage.js"],
+    "persistent": false
   },
   "permissions": [
     "tabs", "*://*.zendesk.com/agent/*", "webNavigation"
