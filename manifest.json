@@ -6,7 +6,7 @@
     "scripts": ["background.js"]
   },
   "permissions": [
-    "tabs", "*://*.zendesk.com/agent/*"
+    "tabs", "*://*.zendesk.com/agent/*", "webNavigation"
   ],
   "manifest_version": 2
 }
