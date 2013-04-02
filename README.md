@@ -1,4 +1,4 @@
-new_zendesk_tabs
+New Zendesk Tabs
 ================
 
-Open Zendesk tickets urls in a New Zendesk tab
+Chrome extension for opening Zendesk tickets urls in the same New Zendesk tab.
