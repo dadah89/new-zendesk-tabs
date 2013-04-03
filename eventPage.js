@@ -1,12 +1,13 @@
 function openTicketInZendesk(tab) {
-  var match = tab.url.match(/^https?:\/\/(.*)\.zendesk.com\/tickets\/(\d+)$/);
+  var match = tab.url.match(/^https?:\/\/(.*)\.zendesk.com\/(agent\/#\/)?tickets\/(\d+)$/);
 
   if (match) {
     var domain  = match[1],
         pattern = '*://' + domain + '.zendesk.com/agent/*',
-        id      = match[2];
+        id      = match[3];
 
-    chrome.tabs.query({ url: pattern }, function(tabs) {
+    // Current tab should be ignored when looking for New Zendesk tabs (avoid new tab matching itself if tab.url is a New Zendesk url)
+    chrome.tabs.query({ url: pattern, active: false }, function(tabs) {
       var lotusTab = tabs[0];
 
       if (lotusTab) {

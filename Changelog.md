@@ -1,3 +1,7 @@
+### v0.3.0
+
+* Match New Zendesk links (e.g. mydomain.zendesk.com/agent/#/tickets/1).
+
 ### v0.2.0
 
 * Make background script non persistent (loaded only when it's needed).

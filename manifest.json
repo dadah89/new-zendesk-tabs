@@ -1,7 +1,7 @@
 {
   "name": "New Zendesk Tabs",
   "description": "Open Zendesk tickets urls in the same New Zendesk tab.",
-  "version": "0.2",
+  "version": "0.3",
   "background": {
     "scripts": ["eventPage.js"],
     "persistent": false

@@ -11,11 +11,10 @@ Specially useful when clicking in links from your email client.
 
 ## How to install
 
-* Download [new_zendesk_tabs.crx](https://github.com/dadah89/new-zendesk-tabs/blob/master/new_zendesk_tabs.crx?raw=true).
+* Download [new_zendesk_tabs.crx](https://github.com/dadah89/new-zendesk-tabs/blob/master/new-zendesk-tabs.crx?raw=true).
 * Open chrome://extensions in a new tab, drag and drop the file to that page.
 
 ## What is next
 
-* Match New Zendesk links (e.g. mydomain.zendesk.com/agent/#/tickets/1).
 * Publish in the Chrome Web Store?
 * License
